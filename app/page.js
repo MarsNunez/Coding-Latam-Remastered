@@ -1,91 +1,110 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from './page.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import Cards from "./components/Cards";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main>
+      {/* LANDING PAGE SECTION */}
+      <section className="bg-image-up">
+        <div className="text-center pt-14 pb-5 flex flex-col gap-6">
+          <div className="under">
+            <h1 className="text-[#170055] font-extrabold text-3xl w-fit px-1 pb-2">
+              Mejora tus dev skills
+            </h1>
+          </div>
+          <div className="px-9">
+            <p>
+              Aprende y comparte conocimiento con otros devs de la industria.
+            </p>
+          </div>
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
+        <div className="h-72 flex justify-center w-fit mx-auto">
+          <img
+            src="/img/terminal.webp"
+            alt="terminal"
+            className="terminal-animated my-auto"
+          />
         </div>
-      </div>
+      </section>
 
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
+      {/* COURSES SECTION */}
+      <section className="bg-image-down">
+        <div className="text-center">
+          <h2 className="text-[#170055] font-extrabold text-2xl mb-4">
+            ¿Qué es lo que hacemos?
           </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
+          <p>
+            Compartimos conocimiento (talleres, workshops, cursos, etc.)
+            apoyando a los profesionales que inician en el mundo del desarrollo
+            web.
           </p>
-        </a>
+        </div>
+        <div className="pb-24">
+          <Cards />
+        </div>
+      </section>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
+      {/* INFO SECTION */}
+      <section className="bg-white pb-10">
+        <div className="text-center px-10 pt-10 pb-5">
+          <h2 className="text-[#170055] font-extrabold text-2xl mb-4">
+            ¿Cómo me uno?
           </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
+          <p>En Coding Latam tienes 2 maneras de ser parte de la comunidad:</p>
+        </div>
+        <div className="w-fit mx-auto">
+          <div className="flex items-center px-8 gap-8">
+            <figure className="h-48">
+              <img
+                src="/img/student.svg"
+                alt="student image"
+                className="h-full"
+              />
+            </figure>
+            <div className="text-center">
+              <h4 className="font-black text-lg text-[#170055]">Estudiante</h4>
+              <p className="pt-1 pb-4">
+                Quieres aprender sobre tecnología y mejorar tus habilidades.
+                Únete a Discord!
+              </p>
+              <button className="bg-[#3E00FF] hover:bg-[#350dac] ease-out duration-300 text-white text-md font-semibold py-2 px-5 rounded-sm">
+                Quiero ser estudiante
+              </button>
+            </div>
+          </div>
+          <div className="flex items-center px-8 gap-8">
+            <figure className="h-56 px-5">
+              <img
+                src="/img/professor.svg"
+                alt="professor image"
+                className="h-full"
+              />
+            </figure>
+            <div className="text-center">
+              <h4 className="font-black text-lg text-[#170055]">Mentor</h4>
+              <p className="pt-1 pb-4">
+                Quieres compartir tu experiencia con nuevos entusiastas de la
+                tecnología
+              </p>
+              <button className="bg-[#3E00FF] hover:bg-[#350dac] ease-out duration-300 text-white text-md font-semibold py-2 px-5 rounded-sm">
+                Quiero ser mentor
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+      {/* FOOTER SECTION */}
+      <footer className="bg-[#170055] text-white py-16">
+        <div className=" flex w-fit mx-auto text-4xl gap-4 mb-7">
+          <i class="lni cursor-pointer lni-facebook-original"></i>
+          <i class="lni cursor-pointer lni-instagram-fill"></i>
+          <i class="lni cursor-pointer lni-discord"></i>
+          <i class="lni cursor-pointer lni-twitter-original"></i>
+          <i class="lni cursor-pointer lni-youtube"></i>
+          <i class="lni cursor-pointer lni-telegram-original"></i>
+        </div>
+        <p className="text-center">© Coding Latam 2023 - All rights reserved</p>
+      </footer>
     </main>
-  )
+  );
 }
