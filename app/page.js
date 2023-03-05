@@ -59,25 +59,25 @@ export default function Home() {
         </div>
         <div className="w-fit mx-auto">
           <div className="flex items-center px-8 gap-3 md:gap-8 lg:gap-16 mb-6">
-            <figure className="image-container max-w-xs">
+            <figure className="image-container max-w-xs w-fit ">
               <img src="/img/student.svg" alt="student image" />
             </figure>
-            <div className="text-center md:text-left  max-w-xs md:max-w-none">
-              <h4 className="font-black text-lg text-[#170055]">Estudiante</h4>
+            <div className="text-center md:text-left max-w-xs w-fit">
+              <h4 className="font-black text-lg text-[#170055]">Mentor</h4>
               <p className="pt-1 pb-4 lg:text-xl">
                 Quieres aprender sobre tecnología y mejorar tus habilidades.
                 Únete a Discord!
               </p>
-              <button className="bg-[#3E00FF] hover:bg-[#350dac] ease-out duration-300 text-white text-md font-semibold py-2 px-5 rounded-sm">
+              <button className="bg-[#3E00FF] hover:bg-[#350dac] ease-out duration-300 text-white text-md font-semibold py-2 px-3 rounded-sm">
                 Quiero ser estudiante
               </button>
             </div>
           </div>
           <div className="flex items-center px-8 gap-3 md:gap-8 lg:gap-16">
-            <figure className="image-container max-w-xs">
+            <figure className="image-container max-w-xs w-fit">
               <img src="/img/professor.svg" alt="professor image" />
             </figure>
-            <div className="text-center md:text-left max-w-xs md:max-w-none">
+            <div className="text-center md:text-left max-w-xs w-fit">
               <h4 className="font-black text-lg text-[#170055]">Mentor</h4>
               <p className="pt-1 pb-4 lg:text-xl">
                 Quieres compartir tu experiencia con nuevos entusiastas de la
