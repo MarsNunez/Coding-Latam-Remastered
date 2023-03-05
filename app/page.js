@@ -59,10 +59,10 @@ export default function Home() {
         </div>
         <div className="w-fit mx-auto">
           <div className="flex items-center px-8 gap-3 md:gap-8 lg:gap-16 mb-6">
-            <figure className="image-container max-w-xs w-fit ">
+            <figure className="image-container max-w-xs w-fit">
               <img src="/img/student.svg" alt="student image" />
             </figure>
-            <div className="text-center md:text-left max-w-xs w-fit">
+            <div className="text-center md:text-left max-w-xs w-fit md:max-w-none">
               <h4 className="font-black text-lg text-[#170055]">Mentor</h4>
               <p className="pt-1 pb-4 lg:text-xl">
                 Quieres aprender sobre tecnología y mejorar tus habilidades.
@@ -77,7 +77,7 @@ export default function Home() {
             <figure className="image-container max-w-xs w-fit">
               <img src="/img/professor.svg" alt="professor image" />
             </figure>
-            <div className="text-center md:text-left max-w-xs w-fit">
+            <div className="text-center md:text-left max-w-xs w-fit md:max-w-none">
               <h4 className="font-black text-lg text-[#170055]">Mentor</h4>
               <p className="pt-1 pb-4 lg:text-xl">
                 Quieres compartir tu experiencia con nuevos entusiastas de la
