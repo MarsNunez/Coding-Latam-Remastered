@@ -15,10 +15,12 @@ export default function RootLayout({ children }) {
         <link
           href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
           rel="stylesheet"
+          crossOrigin="true"
         />
         <link
           href="https://cdn.lineicons.com/4.0/lineicons.css"
           rel="stylesheet"
+          crossOrigin="true"
         ></link>
       </head>
       <body>

@@ -1,6 +1,6 @@
 const Cards = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-8 mt-10">
+    <div className="flex flex-col items-center justify-center gap-8 mt-10 md:grid grid-cols-2 w-fit mx-auto md:gap-10 xl:grid-cols-4">
       <div className="w-72 rounded-xl overflow-hidden card cursor-pointer relative">
         <div className="font-bold text-3xl h-52 face-card text-white ">
           <div className=" h-full">
@@ -25,7 +25,7 @@ const Cards = () => {
           </div>
           <div className="text-center absolute bottom-3 right-8">
             <div className="border-4 hover:text-[#3e00ff] ease-in-out duration-300 flex items-center justify-center h-16 w-16 rounded-full bg-white playbutton">
-              <i class="lni lni-vercel text-sm rotate-90"></i>
+              <i className="lni lni-vercel text-sm rotate-90"></i>
             </div>
             <p className="text-gray-600 font-bold mt-4 text-lg">0%</p>
           </div>
@@ -55,7 +55,7 @@ const Cards = () => {
           </div>
           <div className="text-center absolute bottom-3 right-8">
             <div className="border-4 hover:text-[#3e00ff] ease-in-out duration-300 flex items-center justify-center h-16 w-16 rounded-full bg-white playbutton">
-              <i class="lni lni-vercel text-sm rotate-90"></i>
+              <i className="lni lni-vercel text-sm rotate-90"></i>
             </div>
             <p className="text-gray-600 font-bold mt-4 text-lg">0%</p>
           </div>
@@ -85,7 +85,7 @@ const Cards = () => {
           </div>
           <div className="text-center absolute bottom-3 right-8">
             <div className="border-4 hover:text-[#3e00ff] ease-in-out duration-300 flex items-center justify-center h-16 w-16 rounded-full bg-white playbutton">
-              <i class="lni lni-vercel text-sm rotate-90"></i>
+              <i className="lni lni-vercel text-sm rotate-90"></i>
             </div>
             <p className="text-gray-600 font-bold mt-4 text-lg">0%</p>
           </div>
@@ -115,7 +115,7 @@ const Cards = () => {
           </div>
           <div className="text-center absolute bottom-3 right-8">
             <div className="border-4 hover:text-[#3e00ff] ease-in-out duration-300 flex items-center justify-center h-16 w-16 rounded-full bg-white playbutton">
-              <i class="lni lni-vercel text-sm rotate-90"></i>
+              <i className="lni lni-vercel text-sm rotate-90"></i>
             </div>
             <p className="text-gray-600 font-bold mt-4 text-lg">0%</p>
           </div>

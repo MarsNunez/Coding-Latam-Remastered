@@ -13,7 +13,6 @@ body {
 .under {
   position: relative;
   width: fit-content;
-  margin: 0 auto;
 }
 
 .under::before {
@@ -101,4 +100,15 @@ section.bg-image-down {
   -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.21);
   -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.21);
   transition: ease-out 100ms;
+}
+
+.image-container {
+  height: 80px;
+  width: 80px;
+}
+
+.image-container img {
+  height: 100%;
+  width: 100%;
+  /* object-fit: cover; */
 }
