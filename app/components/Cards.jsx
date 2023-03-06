@@ -1,9 +1,9 @@
 const Cards = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-8 mt-10 md:grid grid-cols-2 w-fit mx-auto md:gap-10 xl:grid-cols-4">
+    <div className="flex flex-col items-center justify-center gap-8 mt-10 md:grid grid-cols-2 w-fit mx-auto md:gap-10 lg:grid-cols-3 xl:grid-cols-4">
       <div className="w-72 rounded-xl overflow-hidden card cursor-pointer relative">
         <div className="font-bold text-3xl h-52 face-card text-white ">
-          <div className=" h-full">
+          <div className="h-full">
             <img
               src="/img/bg-images/img02.png"
               alt="card image"

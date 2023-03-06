@@ -110,5 +110,43 @@ section.bg-image-down {
 .image-container img {
   height: 100%;
   width: 100%;
-  /* object-fit: cover; */
+}
+
+.bg-clases {
+  background-image: url("/img/banner-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-clases i {
+  font-size: 50px;
+}
+
+.title {
+  font-weight: 600;
+  color: #170055;
+}
+
+.groups-card {
+  background-image: url("/img/groups-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 310px;
+  cursor: pointer;
+
+  box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.6);
+  transition: ease-out 200ms;
+}
+
+.groups-card:hover {
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.21);
+  transition: ease-out 200ms;
+}
+
+.groups-card .group-container {
+  height: 110px;
 }
