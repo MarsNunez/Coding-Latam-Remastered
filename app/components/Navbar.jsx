@@ -48,7 +48,7 @@ const Navbar = () => {
         >
           Menú
         </button>
-        <ul className="hidden lg:flex text-sm gap-12">
+        <ul className="hidden lg:flex text-sm gap-12 font-bold">
           <li>
             <Link href={"/"} onClick={() => setMenu(false)}>
               Inicio

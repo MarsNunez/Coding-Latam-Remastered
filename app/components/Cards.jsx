@@ -1,7 +1,12 @@
+import Link from "next/link";
+
 const Cards = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-8 mt-10 md:grid grid-cols-2 w-fit mx-auto md:gap-10 lg:grid-cols-3 xl:grid-cols-4">
-      <div className="w-72 rounded-xl overflow-hidden card cursor-pointer relative">
+      <Link
+        href={"/grupos/curso-de-react-native-avanzado"}
+        className="w-72 rounded-xl overflow-hidden card cursor-pointer relative"
+      >
         <div className="font-bold text-3xl h-52 face-card text-white ">
           <div className="h-full">
             <img
@@ -30,8 +35,11 @@ const Cards = () => {
             <p className="text-gray-600 font-bold mt-4 text-lg">0%</p>
           </div>
         </div>
-      </div>
-      <div className="w-72 rounded-xl overflow-hidden card cursor-pointer relative">
+      </Link>
+      <Link
+        href={"/grupos/taller-de-responsive-design"}
+        className="w-72 rounded-xl overflow-hidden card cursor-pointer relative"
+      >
         <div className="font-bold text-3xl h-52 face-card text-white ">
           <div className=" h-full">
             <img
@@ -60,8 +68,11 @@ const Cards = () => {
             <p className="text-gray-600 font-bold mt-4 text-lg">0%</p>
           </div>
         </div>
-      </div>
-      <div className="w-72 rounded-xl overflow-hidden card cursor-pointer relative">
+      </Link>
+      <Link
+        href={"/grupos/taller-de-flexbox"}
+        className="w-72 rounded-xl overflow-hidden card cursor-pointer relative"
+      >
         <div className="font-bold text-3xl h-52 face-card text-white ">
           <div className=" h-full">
             <img
@@ -90,8 +101,11 @@ const Cards = () => {
             <p className="text-gray-600 font-bold mt-4 text-lg">0%</p>
           </div>
         </div>
-      </div>
-      <div className="w-72 rounded-xl overflow-hidden card cursor-pointer relative">
+      </Link>
+      <Link
+        href={"/grupos/curso-de-angular-cli"}
+        className="w-72 rounded-xl overflow-hidden card cursor-pointer relative"
+      >
         <div className="font-bold text-3xl h-52 face-card text-white ">
           <div className="h-full">
             <img
@@ -120,7 +134,7 @@ const Cards = () => {
             <p className="text-gray-600 font-bold mt-4 text-lg">0%</p>
           </div>
         </div>
-      </div>
+      </Link>
     </div>
   );
 };
