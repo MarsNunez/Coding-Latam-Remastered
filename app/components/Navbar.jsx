@@ -6,7 +6,7 @@ const Navbar = () => {
   const [menu, setMenu] = useState(false);
   return (
     <nav className="border-b border-gray-300 relative flex items-center px-4 py-3 justify-between max-w-7xl mx-auto">
-      {menu ? (
+      {menu && (
         <div className="z-10 absolute left-0 w-full min-h-screen top-0 backdrop-blur-md backdrop-brightness-50">
           <div
             className="w-auto relative text-white text-4xl cursor-pointer"
@@ -33,7 +33,7 @@ const Navbar = () => {
             <li className="cursor-pointer">Iniciar sesión</li>
           </ul>
         </div>
-      ) : null}
+      )}
       <Link href={"/"}>
         <img
           src="/img/big-logo-transparent.png"

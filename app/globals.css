@@ -150,3 +150,14 @@ section.bg-image-down {
 .groups-card .group-container {
   height: 110px;
 }
+
+.info-card {
+  background-image: url("/img/info-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.6);
+  transition: ease-out 200ms;
+}
