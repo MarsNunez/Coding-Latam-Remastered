@@ -43,7 +43,6 @@ const ClasesPage = () => {
 
         <div className="pb-20">
           <Cards />
-          <Cards />
         </div>
       </section>
     </div>

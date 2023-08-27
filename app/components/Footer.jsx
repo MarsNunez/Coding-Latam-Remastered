@@ -10,6 +10,10 @@ const Footer = () => {
         <i className="lni cursor-pointer lni-telegram-original"></i>
       </div>
       <p className="text-center">© Coding Latam 2023 - All rights reserved</p>
+      <p className="text-center">
+        Made with love by{" "}
+        <a href="https://twitter.com/MarsNunezDev">@MarsNunez</a> 💚
+      </p>
     </footer>
   );
 };
