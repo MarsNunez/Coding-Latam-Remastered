@@ -27,7 +27,6 @@ body {
 }
 
 .terminal-animated {
-  /* animation: growing 1.5s ease-in infinite alternate; */
   animation: grow 1.5s linear infinite alternate;
 }
 

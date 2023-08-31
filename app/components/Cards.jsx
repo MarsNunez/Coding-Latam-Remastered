@@ -16,7 +16,7 @@ const Cards = () => {
             />
           </div>
           <h3 className="drop-shadow-4xl top-0 px-4 pt-5 absolute">
-            Curso de React Native avanzado
+            Curso de HTML5 Basico
           </h3>
         </div>
         <div className="flex px-7 py-4">
@@ -49,7 +49,7 @@ const Cards = () => {
             />
           </div>
           <h3 className="drop-shadow-4xl top-0 px-4 pt-5 absolute">
-            Taller de Responsive Design
+            Taller de CSS
           </h3>
         </div>
         <div className="flex px-7 py-4">
@@ -82,7 +82,7 @@ const Cards = () => {
             />
           </div>
           <h3 className="drop-shadow-4xl top-0 px-4 pt-5 absolute">
-            Taller de Flexbox
+            Taller de Flexbox Y Grid
           </h3>
         </div>
         <div className="flex px-7 py-4">
@@ -115,7 +115,7 @@ const Cards = () => {
             />
           </div>
           <h3 className="drop-shadow-4xl top-0 px-4 pt-5 absolute">
-            Curso de Angular y CLI
+            Curso de HTML5 Avanzado
           </h3>
         </div>
         <div className="flex px-7 py-4">
